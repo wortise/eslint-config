@@ -1,0 +1,48 @@
+{
+  "name": "@wortise/eslint-config",
+  "version": "1.0.0",
+  "description": "Wortise JS ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --report-unused-disable-directives ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wortise/eslint-config"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "wortise",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018"
+  ],
+  "author": "Wortise",
+  "license": "MIT",
+  "homepage": "https://github.com/wortise/eslint-config",
+  "bugs": {
+    "url": "https://github.com/wortise/eslint-config/issues"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0 || ^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^8.0.0"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0 || ^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^8.0.0"
+  },
+  "engines": {
+    "node": ">= 8"
+  }
+}
