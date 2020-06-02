@@ -16,7 +16,7 @@ module.exports = {
 
     'no-whitespace-before-property': 0,
 
-    'added-blocks': 0,
+    'padded-blocks': 0,
 
     'padding-line-between-statements': [
       'error',
