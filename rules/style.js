@@ -21,7 +21,7 @@ module.exports = {
     'padding-line-between-statements': [
       'error',
       { blankLine: 'always', prev: '*',                     next: '*' },
-      { blankLine: 'any',    prev: '*',                     next: 'return' },
+      { blankLine: 'any',    prev: '*',                     next: ['break', 'continue', 'return'] },
       { blankLine: 'any',    prev: 'export',                next: 'export' },
       { blankLine: 'any',    prev: 'expression',            next: 'expression' },
       { blankLine: 'any',    prev: 'import',                next: 'import' },
