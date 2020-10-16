@@ -14,6 +14,10 @@ module.exports = {
 
     'no-multi-spaces': 0,
 
+    'no-multiple-empty-lines': ['error', {
+      'max': 2
+    }],
+
     'no-whitespace-before-property': 0,
 
     'padded-blocks': 0,
