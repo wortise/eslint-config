@@ -1,6 +1,6 @@
 module.exports = {
 
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
 
   plugins: [
     'babel'
