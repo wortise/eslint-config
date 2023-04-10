@@ -4,7 +4,6 @@ module.exports = {
     'eslint-config-airbnb-base',
     './rules/best-practices',
     './rules/node',
-    './rules/babel',
     './rules/style',
     './rules/functions',
     './rules/es6',
