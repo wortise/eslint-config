@@ -1,6 +1,6 @@
 {
   "name": "@wortise/eslint-config",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Wortise JS ESLint config",
   "main": "index.js",
   "scripts": {
