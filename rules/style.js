@@ -30,6 +30,11 @@ module.exports = {
       { blankLine: 'any',    prev: 'expression',            next: 'expression' },
       { blankLine: 'any',    prev: 'import',                next: 'import' },
       { blankLine: 'any',    prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] }
-    ]
+    ],
+
+    'sort-keys': ['error', 'asc', {
+      caseSensitive: true,
+      natural:       false
+    }]
   }
 };
